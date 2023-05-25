@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(./images/desktop/image-header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-area: a;
+}
+.transform{
+    display: grid;
+    grid-area: b;
+}
+.egg{
+    display: grid;
+    grid-area: c;
+    background-image: url(./images/desktop/image-transform.jpg);
+}
+.cup{
+    display: grid;
+    grid-area: d;
+    background-image: url(./images/desktop/image-stand-out.jpg);
+}
+.stand{
+    display: grid;
+    grid-area: e;
+}
+.graphic{
+    display: grid;
+    grid-area: f;
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+}
+.photography{
+    display: grid;
+    grid-area: g;
+    background-image: url(./images/desktop/image-photography.jpg);
+}
+/* .main{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: a a
+    b c
+    d e
+    f g;
+} */
